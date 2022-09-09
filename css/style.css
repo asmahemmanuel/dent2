@@ -3,7 +3,7 @@
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #784cfb;
+  --main-color: #f16161;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
@@ -27,7 +27,7 @@ body,
 button,
 input,
 textarea {
-  font-family: "Poppins", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 a {
@@ -206,7 +206,7 @@ img {
 }
 
 .btn:hover {
-  background-color: #6b44e0;
+  background-color: #1d1a24;
 }
 
 .btn.small {
@@ -238,7 +238,7 @@ nav .container {
   height: 4rem;
   align-items: center;
   position:fixed;
-  background-color: whitesmoke;
+  background-color: rgb(253, 120, 120);
 }
 
 /* .logo {
@@ -277,7 +277,7 @@ nav .container {
 
 .links a.active:hover {
   color: var(--light-one);
-  background-color: #6b44e0;
+  background-color: #f52d6f;
 }
 
 .hamburger-menu {
@@ -640,7 +640,7 @@ header .circle {
   left: 0;
   z-index: 2;
   color: var(--light-one);
-  background-color: rgba(120, 76, 251, 0.55);
+  background-color: rgba(0, 0, 0, 0.55);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1192,7 +1192,7 @@ header .circle {
 
 /* End Contact */
 
-/* Hire me */
+/* Book me */
 
 .hireme {
   padding: 12rem 0;
@@ -1211,7 +1211,7 @@ header .circle {
   margin: 0 auto 1.6rem auto;
 }
 
-/* End Hire me */
+/* End Book me */
 
 /* Footer */
 
@@ -1281,7 +1281,7 @@ header .circle {
 }
 
 .input-arrow:hover {
-  background-color: #6b44e0;
+  background-color: #00000093;
 }
 
 .focus {
@@ -1297,7 +1297,7 @@ header .circle {
 }
 
 .copyright .text {
-  color: #7b7b7b;
+  color: #f74c4c;
   font-size: 1.2rem;
   display: inline-block;
   text-align: center;
@@ -1318,7 +1318,7 @@ header .circle {
 }
 
 .followme h3 {
-  color: #7b7b7b;
+  color: #f74c4c;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -1326,7 +1326,7 @@ header .circle {
 .followme .footer-line {
   width: 60px;
   height: 2px;
-  background-color: #7b7b7b;
+  background-color: #f74c4c;
   margin: 0 1.2rem;
   display: inline-block;
 }
@@ -1364,7 +1364,7 @@ header .circle {
 }
 
 .back-btn:hover {
-  background-color: #6b44e0;
+  background-color: #00000093;
 }
 
 .back-btn-wrap:before {
